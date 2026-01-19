@@ -70,7 +70,7 @@ selected_dates = st.sidebar.date_input(
 
 compare_mode = st.sidebar.selectbox(
     "비교 방식",
-    ["정규화(첫날=100) 비교", "종가(절대값) 비교"],
+    ["정규화 비교", "종가 비교"],
 )
 
 confirm_btn = st.sidebar.button("비교하기")
